@@ -18,7 +18,7 @@
 }
 
 .omni-mobile-menu {
-  background-color: #025b85;
+  background-color: #082032;
   bottom: 0;
   height: 100vh;
   left: 0;
@@ -97,7 +97,7 @@
   z-index: 2;
 }
 .toggle-btn .hamburger-icon {
-  background-color: #025b85;
+  background-color: #082032;
   border-radius: 5px;
   height: 40px;
   padding: 0;
