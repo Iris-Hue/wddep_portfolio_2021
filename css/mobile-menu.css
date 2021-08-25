@@ -40,7 +40,7 @@
 .omni-mobile-menu a,
 .omni-mobile-menu .omni-dropdown-toggle {
   background-color: transparent;
-  border-bottom: 2px solid #025176;
+  border-bottom: 2px solid #ff4c29;
   color: #fff;
   display: block;
   font-size: 14px;
@@ -136,7 +136,7 @@
 }
 .hamburger .line {
   fill: none;
-  stroke: #fff;
+  stroke: #ff4c29;
   stroke-width: 5.5;
   stroke-linecap: round;
   transition: all 0.5s ease;
