@@ -28,8 +28,22 @@ main {
 
 }
 .header-name {
-    color: #dddddd;
+    color: #082032;
     font-size: 25px;
+  
+}
+.developer-title {
+    font-size: 70px;
+    color: #dddddd;
+    font-weight: 600;
+    margin-top: 9rem;
+    margin-left: 8rem;
+}
+.mission-statement {
+    font-size: 30px;
+    color: #dddddd;
+    font-weight: 600;
+    margin-top: 12rem;
 }
 
 h2 {
