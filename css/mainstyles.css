@@ -19,13 +19,17 @@ main {
     height: 100%;
 }
 .page-header {
-    background-color: #5c2018;
+    background-color: #ff4c29;
     max-width: 100%;
-    max-height: 100%;
+    min-height: 100vh;
+
+}
+.header-bottom-waves {
 
 }
 .header-name {
-    color: #f3e0dc;
+    color: #dddddd;
+    font-size: 25px;
 }
 
 h2 {
