@@ -1,0 +1,168 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>wddep Wireframe Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/mobile-menu.css">
+  <link rel="stylesheet" href="css/mainstyles.css">
+
+</head>
+
+<body class="open-mobile-menu">
+    <header class="page-header">
+        <h2 class="header-name">Iris Heidebrecht</h2>
+        <!--<p>short paragraph </p>
+        <button>See More Scroll </button>  -->
+        <!--page break onto next page-->
+
+        <!--start of next page-->
+        <h2>Iris Heidebrecht</h2>--> <!--on left-->
+        <ul class="omni-mobile-menu"> <!--on right-->
+            <li><a href="#">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#about">Biography</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul><!-- omni-mobile-menu -->
+    
+        <div class="toggle-btn">
+            <div class="hamburger-icon">
+                <svg class="hamburger" viewBox="0 0 100 100" id="hamburger">
+                    <path class="line top" d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20" />
+                    <path class="line middle" d="m 30,50 h 40" />
+                    <path class="line bottom" d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20" />
+                </svg>
+            </div>
+        </div>
+    </header>
+    
+        <div class="content-wrapper">
+            <!--Place Site Content Here-->
+
+    <!--new section for Introdution with the nav menu-->
+
+     <!--with link to hire me-->
+     <!--<h1> Iris Heidebrecht</h1>-->
+    <section class="intro"> <!--introdution of the page -->
+        <div class="welcome-page">
+        <h3>Welcome to my Page.</h3>
+        <p class="welcome-parag">Please have a look at my gallery of some of my recently completed projects.<br> Also, I hope you will read a short article I wrote in my story section later on mid page.<br>There will be a link to my full gallery of projects in the contact section.</p>
+        <!--button for linkto contact form 
+        <button></button>-->
+        <!--remove<img class="berries" src="images/blueberries.jpeg" alt="basket of blueberries" />-->
+        </div>
+    </section>
+
+                <main> <!--projects completed-->
+                    <h2 class="gallery-heading">Gallery of Projects</h2>
+                    <section class="gallery" id="gallery">
+                        <div class="card-gallery">
+                        <img src="images/gallery.jpeg" alt="picture frames hanging on the wall" />
+                        <h4>Mobile-First</h4>
+                        <p class="card-parag">A responsive layout to achieve the different screen sizes, mobile, tablet and desktop.
+                            This webpage used HTML and CSS grid box modals for the layout of the thumbnail gallery.</p>
+                                <a class="readmore-button" href="https://iris-hue.github.io/mobile-first-project-2/">View this Project</a>
+                    </div>
+                
+                    <div class="card-gallery">
+                        <img src="images/gallery2.jpeg" alt="empty picture frames hanging on the wall" />
+                        <h4>Online Registration Form</h4>
+                        <p class="card-parag"> Here is a simple web form for users to fill out to collect information.
+                            I used HTML elements to create labels to help the user fill the form out correctly.
+                            Some of the form fields used were: text input, checkboxes and a select menu that pops down.</p>
+                 
+                                <a class="readmore-button" href="https://iris-hue.github.io/online-reg-form-unit3/">View this Project</a>
+                    </div>
+                
+                    <div class="card-gallery">
+                        <img src="images/gallery3.png" alt="picture frames hanging on the wall" />
+                        <h4>Gameshow App</h4>
+                        <p class="card-parag">An interactive word guessing game.
+                            Building this app is where I learned JavaScript.
+                            I had to create a JS function that randomly chooses a letter from the phase word.</p>
+                        <a class="readmore-button" href="https://iris-hue.github.io/gameshowapp_unit6/">View this Project</a>
+                            
+                    </div>
+                    <div class="card-gallery">
+                        <img src="images/gallery4.jpeg" alt="picture frames hanging on the wall" />
+                        <h4>Employee Directory</h4>
+                        <p class="card-parag">I created this page to have all the employees' contact information along with their photos.
+                            This project used API(Application Programming Interface) usage and fetch to select the employee from the list.
+                            Then created a JS modal window that displays the employees' contact details.</p>
+                        <a class="readmore-button" href="https://iris-hue.github.io/employee_directory_unit8/">View this Project</a>
+                             
+                    </div>
+                    </section>
+                    <!--page 2 is about me with more of other interests-->
+                    
+
+    <section class="contact-info" id="contact">
+        <h2 class="contact-heading">Contact Me</h2>
+        <p>Please send me an email if <strong>your interested in chatting</strong> or would like to know more on how we could work together on future projects.</p>
+        <a href="mailto:thisgale@emailme.cat">Send me an email</a>
+        <form>
+            
+            <!--add form content here-->
+            <fieldset>
+                <legend>Contact Information</legend>
+            
+                    <div class="input-content">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="user_name" placeholder="Required" required>
+                    </div>
+            
+                    <div class="input-content">
+                        <label for="mail">Email Address</label>
+                        <input type="email" id="mail" name="user_email" placeholder="Required" required>
+                        <br><label for="message">If your like send me a message</label><br>
+                        <textarea class="input-content" id="othertopics" name="user_topics"></textarea>
+                        <button type="submit">Submit</button>
+                    </fieldset>
+                </section>
+            
+            
+            
+                    </div>
+                
+            
+        </form>
+         
+        
+            <a class="email-button" href="https://github.com/Iris-Hue">View full Github Account</a>
+          
+    </section>
+</main>
+
+
+  <!-- Add your site or application content here -->
+  
+
+  <script src="js/script.js"></script>
+
+  <script src="js/mobile-menu.js"></script>
+
+  <footer class="footer">
+      <div class="footer-heading">
+    <h5>© 2021, <em>Something to Brag About Web Design.</em></h5>
+    <nav class="backtotop" id="back"><a href="#">Back to Top</a></nav>
+    <!--<ul class="omni-mobile-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#about">Biography</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>  -->
+  </div> 
+</footer>
+
+</div><!-- content-wrapper -->
+</body>
+
+</html>
