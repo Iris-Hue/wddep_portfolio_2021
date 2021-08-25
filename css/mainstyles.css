@@ -11,12 +11,13 @@ p {
 body {
     font-size: 25px;
     margin: auto;
-    color: #5c2018;
+    color: #efefe6;
     font-family: 'Playfair Display', serif; 
 }
 main {
     width: 100%;
     height: 100%;
+    background-color: #35495a;
 }
 .page-header {
     background-color: #ff4c29;
@@ -34,7 +35,7 @@ main {
 }
 .developer-title {
     font-size: 70px;
-    color: #dddddd;
+    color: #EFEFE6;
     font-weight: 600;
     margin-top: 9rem;
     margin-left: 8rem;
@@ -53,14 +54,16 @@ h2 {
     font-family: 'Great Vibes', cursive;
     padding: 20px 5px 5px 15px;
     display: block;
-    color: #5c2018;
+    color: #ff4c29;
 }
 /* /navbar*/
 
 
 /* introduction starts*/
 .intro {
-    margin: 10px;
+    background-color: #082032;
+    min-width: 100%;
+    min-height: 100vh;
 }
 
 h3 {
@@ -68,6 +71,7 @@ h3 {
     margin: auto;
     text-align: center;
     padding-top: 20px;
+    color: #ff4c29;
 }
 
 .berries {
@@ -87,7 +91,7 @@ h3 {
     justify-content: space-between;
 }
 .gallery-heading {
-    color:#5c2018;
+    color:#ff4c29;
     padding-top: 2rem;
 }
 .gallery {
@@ -137,7 +141,7 @@ img {
 /* contact starts*/
 .contact-info {
     padding: 10px;
-    background-color: #bc4639;
+    background-color: #082032;
 }
 
 .email-button {
@@ -161,8 +165,8 @@ img {
     display: flex;
     padding-top: 10px;
     font-size: 14px;
-    color:#f3e0dc;
-    background: linear-gradient(#d4a59a, #5c2018);
+    color:#082032;
+    background: #ff4c29;
     
 }
 .footer-heading {
