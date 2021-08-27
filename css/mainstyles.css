@@ -17,62 +17,64 @@ body {
 main {
     width: 100%;
     height: 100%;
-    background-color: #35495a;
 }
 .page-header {
-    background-color: #ff4c29;
+    background-image: radial-gradient(circle, rgba(255, 76, 41, 0.9) 17%, #ff4c29 90%);
     flex-wrap: wrap;
     max-width: 100%;
     min-height: 100vh;
 }
 
 .header-name {
-    color: #082032;
-    font-size: 30px;
+    color: #EFEFE6;
+    font-size: 20px;
+    margin-left: 8rem;
 }
 .developer-title {
     font-size: 70px;
     color: #EFEFE6;
     font-weight: 600;
-    margin-top: 8rem;
     margin-left: 8rem;
 }
 .mission-statement {
-    font-size: 25px;
-    color: #dddddd;
+    font-size: 20px;
+    color: #EFEFE6;
     margin-left: 8rem;
+}
+span {
+    font-size: small;
+    margin-left: 2rem;
 }
 
 h2 {
     font-size: 42px;
     font-weight: bold;
     text-align: center;
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Playfair Display', serif; 
     padding: 10px 5px 5px 15px;
     display: block;
-    color: #ff4c29;
+    color: #35495a;
 }
 /* /navbar*/
 
 
 /* introduction starts*/
 .intro {
-    background-color: #082032;
     min-width: 100%;
     min-height: 100vh;
 }
 .welcome-parag {
     margin-left: 10rem;
-
+    color:#35495a;
 }
 
-h3 {
+/*h3 {
     font-size: 30px;
     margin: auto;
     text-align: center;
     padding-top: 20px;
     color: #ff4c29;
-}
+}*/
 
 /* /introduction ends*/
 
@@ -84,7 +86,7 @@ h3 {
    
 }
 .gallery-heading {
-    color:#ff4c29;
+    color:#35495a;
     padding-top: 2rem;
 }
 .gallery {
@@ -133,7 +135,7 @@ img {
 /* contact starts*/
 .contact-info {
     padding: 10px;
-    background-color: #082032;
+    background-image: radial-gradient(circle, rgba(255, 76, 41, 0.9) 17%, #ff4c29 90%);
 }
 
 .email-button {
@@ -144,7 +146,7 @@ img {
     border-radius: 0.25rem;
     width: 20%;
     margin-bottom: 10px;
-   margin-top: 10px;
+    margin-top: 10px;
    
 }
 .email-button:hover {
@@ -174,6 +176,8 @@ h4 {
     display: block;
     padding-top: 10px;
     margin-top: 0;
+    color:#35495a;
+
 }
 
 h5 {
@@ -243,6 +247,7 @@ h5 {
       .card-parag {
           width: 60%;
           flex-grow: 2;
+          color:#35495a;
       }
 
       .readmore-button {
