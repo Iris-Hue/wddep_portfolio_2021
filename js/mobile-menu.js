@@ -1,4 +1,6 @@
+/*
 // Menu Toggles
+
 function stopScroll (event) {
     event.preventDefault();
     return false;
@@ -58,3 +60,4 @@ toggleBtn.addEventListener('click', toggleMenu);
 
 // Close menu on resize
 window.addEventListener('resize', closeMenu);
+*/

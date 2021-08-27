@@ -1,4 +1,4 @@
-@charset "UTF-8";
+<!--@charset "UTF-8";
 .d-none {
   display: none;
 }
@@ -176,6 +176,6 @@ body.menu-open .content-wrapper {
   .toggle-btn {
     display: flex;
   }
-
+-->
 
 /*# sourceMappingURL=mobile-menu.css.map */
