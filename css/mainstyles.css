@@ -147,6 +147,9 @@ img {
     text-align: center;
     margin: 10px; 
 }
+.bio-parag {
+    color: #35495a;
+}
 
 .aboutme-photo {
     max-width: 100%;
@@ -310,7 +313,7 @@ h5 {
           width: 100%;
           justify-content: space-between;
       }
-      .menu-open .omni-mobile-menu {
+      /*.menu-open .omni-mobile-menu {
       width: 10%;
       height: 70%;
       }
@@ -327,5 +330,5 @@ h5 {
         box-shadow: 0 0 5px 5px rgb(0 0 0 / 20%);
         left: -10vw;
         overflow: hidden;
-    }
+    }*/
 }
