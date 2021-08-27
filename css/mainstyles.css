@@ -161,15 +161,35 @@ img {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column; 
-    padding: 15px;
+    font-size: small;
+    padding: 12px;
+
 }
 legend {
-    color: black; 
+    color: #35495a; 
 }
+
 label {
-    color: black;
+    color: #35495a; 
     text-align: left;
     padding: 5px;
+}
+input {
+    font-size: small;
+    padding: 12px;
+    margin-bottom: 25px;
+}
+input:hover, textarea:hover {
+    cursor: pointer;
+    background-color: #f8edeb;
+}
+button {
+    padding: 5px;
+    margin-top: 25px;
+}
+button:hover {
+    cursor: pointer;
+    background-color: #ff4c29
 }
 /* bio ends*/
 
@@ -315,6 +335,7 @@ h5 {
         justify-content: space-between;
         align-items: center;
         align-content: start;
+        
       }
       
       .footer {
