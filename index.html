@@ -12,43 +12,30 @@
   <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" type="text/css" href="css/mobile-menu.css">
   <link rel="stylesheet" href="css/mainstyles.css">
 </head>
 
-<!--<body class="open-mobile-menu">-->
-  
+
+<body>
     <header class="page-header">
-      <div class="parent">
+      <div class="outermargin-page-header">
         <div class="child">
         <h2 class="header-name">Iris Heidebrecht</h2>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#biography">Biography</a></li>
+          <li><a href="#contact">Contact</a></li>
+      </ul>
         <!--<p>short paragraph </p> --> 
         <p class="developer-title"> WebSite Designer <br> And Front End<br> Developer</p>
         <p class="mission-statement">Hello, I'm Iris; please look at my career portfolio with some of my recently completed projects.<br> Also, I am striving to develop my newly learned frontend development skills into a professional frontend developer through a great company that values a collaborative team environment.</p>
         <a class="readmore-button">&dHar; Keep on Reading</a>
-        <!--<button>See More Scroll </button>  -->
-       
-    
-        <!--<ul class="omni-mobile-menu">
-            <li><a href="#">Home</a></li>
-            <li><a href="#gallery">Gallery</a></li>
-            <li><a href="#about">Biography</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>-->
+        <!--<button>See More Scroll </button>  --> 
       </div>
       </div>
       </header>
-        <!-- omni-mobile-menu -->
-    
-        <!--<div class="toggle-btn">
-            <div class="hamburger-icon">
-                <svg class="hamburger" viewBox="0 0 100 100" id="hamburger">
-                    <path class="line top" d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20" />
-                    <path class="line middle" d="m 30,50 h 40" />
-                    <path class="line bottom" d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20" />
-                </svg>
-            </div>
-        </div> -->
+     
  
     <div style="overflow: hidden;">
       <svg
@@ -61,21 +48,22 @@
       </svg>
     </div>
 
-    <div class="content-wrapper">
-      <div class="parent">
-        <div class="child">
+  
+      
             <!--Place Site Content Here-->
-    <section class="intro"> <!--My Mission Statement-->
-        <div class="welcome-page">
+            <!--My Mission Statement-->
+    <section class="intro"> 
+      <div class="outermargin-intro">
+        <div class="child">
         <p class="welcome-parag"> &rdquo; There is always a margin for improvement &ldquo;<br><span>My Mission Statement</span></p>
         <a class="readmore-button" href="subpage.html#about">More About Me</a>
         <!--button for linkto contact form 
         <button></button>-->
-        <img class="berries" src="images/mediamodifier_image.jpeg" alt="mockup">
+        <img src="images/mediamodifier_image.jpeg" alt="mockup">
         </div>
       </div>
-    </div>
     </section>
+
     <div style="overflow: hidden;">
       <svg
         preserveAspectRatio="none"
@@ -87,10 +75,13 @@
       </svg>
     </div>
                 <main> <!--projects completed-->
+                  <div class="outermargin-intro">
+                    <div class="child">
+                  <section class="gallery" id="gallery">
                   <div class="parent">
                     <div class="child">
                     <h2 class="gallery-heading">Gallery of Projects</h2>
-                    <section class="gallery" id="gallery">
+                   
                         <div class="card-gallery">
                         <img src="images/cloudysunset.jpg" alt="picture frames hanging on the wall" />
                         <h4>Mobile-First</h4>
@@ -98,6 +89,8 @@
                             This webpage used HTML and CSS grid box modals for the layout of the thumbnail gallery.</p>
                                 <a class="readmore-button" href="https://iris-hue.github.io/mobile-first-project-2/">View this Project</a>
                     </div>
+                  </div>
+                </div>
                 
                     <div class="card-gallery">
                         <img src="images/cloudysunset.jpg" alt="empty picture frames hanging on the wall" />
@@ -118,6 +111,7 @@
                         <a class="readmore-button" href="https://iris-hue.github.io/gameshowapp_unit6/">View this Project</a>
                             
                     </div>
+
                     <div class="card-gallery">
                         <img src="images/cloudysunset.jpg" alt="picture frames hanging on the wall" />
                         <h4>Employee Directory</h4>
@@ -125,10 +119,10 @@
                             This project used API(Application Programming Interface) usage and fetch to select the employee from the list.
                             Then created a JS modal window that displays the employees' contact details.</p>
                         <a class="readmore-button" href="https://iris-hue.github.io/employee_directory_unit8/">View this Project</a>
-                             
-                    </div>
+                   
                   </div>
-                  </div>
+                </div>
+                </div>
 
             <a class="email-button" href="https://github.com/Iris-Hue">View full Github Account</a>
                     </section>
@@ -145,39 +139,35 @@
                     </div>
 
     <section class="contact-info" id="contact">
-        <h2 class="contact-heading">Contact Me</h2>
+      <div class="outermargin-contact-info">
+        <div class="child">
+        <h2>Contact Me</h2>
         <p>If your interested in knowing more on how we could work together on future projects, please, send me an email.</p>
-        <a href="mailto:thisgale@emailme.cat">To Contact Me, I would love the hear from you!</a>
-        
-         
-        
-          
+        <a href="mailto:thisgale@emailme.com">To Contact Me, I would love the hear from you!</a>
+        </div>
+        </div>
+
     </section>
 </main>
-
-
-  <!-- Add your site or application content here -->
-  
-
-  <script src="js/script.js"></script>
-
-  <script src="js/mobile-menu.js"></script>
   
 
   <footer class="footer">
+    <div class="outermargin-footer">
+      <div class="child">
       <div class="footer-heading">
-    <h5>© 2021, <em>Created and Designed by Iris.</em></h5>
-    <nav class="backtotop" id="back"><a href="#">Back to Top</a></nav>
-    <!--<ul class="omni-mobile-menu">
+    <h5> © 2021, <em>Created and Designed by Iris.</em></h5>
+    <nav id="back"><a href="#">Back to Top</a></nav>
+    <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#gallery">Gallery</a></li>
-        <li><a href="#about">Biography</a></li>
+        <li><a href="#biograghy">Biography</a></li>
         <li><a href="#contact">Contact</a></li>
-    </ul>  -->
+    </ul> 
+    </div>
+    </div>
+
   </div> 
 </footer>
 
-</div><!-- content-wrapper -->
 </body>
-
 </html>
