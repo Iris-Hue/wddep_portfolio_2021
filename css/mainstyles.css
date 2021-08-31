@@ -2,7 +2,7 @@
 /* Base Styles / Mobile View*/
 * {
     box-sizing: border-box;
-    border: 1px red solid;
+    /*border: 1px red solid;*/
 }
 
 body {
@@ -209,6 +209,9 @@ img {
         justify-content: space-between;
         align-items: center;
         align-content: start;
+}
+.contactwavedivider {
+    margin-bottom: -6px;
 }
 
 p {
