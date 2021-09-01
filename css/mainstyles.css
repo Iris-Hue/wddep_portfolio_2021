@@ -131,16 +131,19 @@ h2 {
 
 /* gallery of works starts*/
 .card-gallery {
-    text-align: center;
-    justify-content: space-between;
-    width: 60%;
-    height: auto;
     display: flex;
+    justify-content: space-between;
+    width: 70%;
+    height: auto;
     flex-direction: column;
     flex-wrap: wrap;
     font-size: 1rem;
-    flex-basis: 50%;
+    flex-basis: 40%;
     align-items: center;
+}
+.gallerylayout {
+    display: flex;
+    justify-content: center;
 }
 .gallery-heading {
     color:#35495a;
@@ -154,6 +157,7 @@ h2 {
     margin-left: 20px; 
 }
 .card-parag {
+    display: flex;
     font-size: 1rem;
     text-align: left;
     width: 60%;
@@ -180,6 +184,10 @@ img {
     cursor: context-menu;
     color: #bc4639;
     background-color: lightgray;
+}
+.viewproject {
+    margin-left: 0;
+    margin-top: 0;
 }
 /* gallery of works ends*/
 
