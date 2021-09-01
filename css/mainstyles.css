@@ -85,8 +85,13 @@ span {
     margin-left: 2rem;
     margin-top: 10px;
 }
-.growth { /*pic in the mission statement*/
-    flex-order: 2;
+.growth img { /*pic in the mission statement*/
+    align-items: flex-end;
+    order: 2;
+    margin-top: 20px;
+    border-radius: 3%;
+    width: 60%;
+    height: auto;
 }
 
 h2 {
@@ -109,14 +114,15 @@ h2 {
     flex-direction: row;
     margin-top: 3rem;
 }
+.outermargin-intro .inner {
+    display: flex;
+    flex-wrap: wrap;
+}
 .welcome-parag {
-    display: block;
-    margin-left: 10rem;
+    margin-left: 8rem;
     color:#35495a;
-    flex-grow: 1;
-    width: 75%;
     text-align: left;
-    text-indent: 5%;
+ 
 }
 
 /* /introduction ends*/
