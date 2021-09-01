@@ -2,7 +2,7 @@
 /* Base Styles / Mobile View*/
 * {
     box-sizing: border-box;
-    border: 1px red solid;
+    /*border: 1px red solid;*/
 }
 
 body {
@@ -85,14 +85,6 @@ span {
     margin-left: 2rem;
     margin-top: 10px;
 }
-.growth img { /*pic in the mission statement*/
-    align-items: flex-end;
-    order: 2;
-    margin-top: 20px;
-    border-radius: 3%;
-    width: 60%;
-    height: auto;
-}
 
 h2 {
     font-size: 42px;
@@ -112,16 +104,25 @@ h2 {
     display: flex;
     align-content: center;
     flex-direction: row;
+    justify-content: center;
     margin-top: 3rem;
 }
 .outermargin-intro .inner {
     display: flex;
     flex-wrap: wrap;
+    margin-left: 0;
+}
+.intro .outermargin-intro {
+    min-height: 40vh;
+    background-image: url('../images/growing.jpeg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: auto 100%;
 }
 .welcome-parag {
-    margin-left: 8rem;
     color:#35495a;
     text-align: left;
+    width: 75%;
  
 }
 
@@ -172,8 +173,7 @@ img {
     font-size: 14px;
     margin-left: 8rem;
     padding: 10px;
-    margin-bottom: 2rem;
-    align-self: center;
+    margin-top:32px;
     border-radius: .25rem;
 }
 .readmore-button:hover {
