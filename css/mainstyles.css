@@ -42,12 +42,16 @@ main {
   justify-content: right;
   text-transform: uppercase; 
   }
+  ul {
+      display: flex;
+  }
 
    li {
     font-size: 15px;
     padding: 12px;
     text-align: center;
     list-style-type: none;
+ 
   }
 
 .header-name {
