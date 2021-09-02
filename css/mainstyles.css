@@ -34,32 +34,27 @@ main {
     width: 85%;
     margin: 0 auto;
 }
-.main-nav {
-    text-align: right;
-    padding: 10px;
-    text-transform: uppercase;
-    color: black;
-    font-weight: bold;
-    list-style-type: none;
+
+  .main-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: right;
+  text-transform: uppercase; 
   }
-  nav ul {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-  }
-  nav li {
-    flex-basis: 30%;
-    padding: 12px 0px;
-    margin: 6px;
-    background: #ffff;
+
+   li {
+    font-size: 15px;
+    padding: 12px;
     text-align: center;
-    border-radius: 70%;
+    list-style-type: none;
   }
 
 .header-name {
     display: flex;
     flex-wrap: wrap;
+    justify-content: left;
+    flex-grow: 1;
     color: #EFEFE6;
     font-size: 20px;
     margin-left: 8rem;
@@ -139,7 +134,7 @@ h2 {
     flex-direction: column;
     flex-wrap: wrap;
     font-size: 1rem;
-    flex-basis: 40%;
+    flex-basis: 30%;
     align-items: center;
 }
 .gallerylayout {
@@ -161,7 +156,7 @@ h2 {
     display: flex;
     font-size: 1rem;
     text-align: left;
-    width: 60%;
+    width: 70%;
     flex-grow: 2;
     color:#35495a;
 }
