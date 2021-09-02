@@ -7,14 +7,9 @@
 
 body {
     font-size: 25px;
-    margin: auto;
     color: #efefe6;
     font-family: 'Assistant', sans-serif;
-}
-main {
-    width: 100%;
-    height: 100%;
-}
+} 
 .page-header {
     display: flex;
     flex-wrap: wrap;
@@ -145,7 +140,7 @@ h2 {
     display: flex;
     justify-content: center;
 }
-.gallery-heading {
+.gallery-heading, .topictitle, .biotitle {
     color:#35495a;
     padding-top: 2rem;
     
@@ -196,23 +191,24 @@ img {
 .bio {
     text-align: center;
     margin: 10px; 
-    display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    align-content: start;
-       
+    flex-direction: row;
+    justify-content: center;    
 }
 .bio-parag {
+    display: flex;
     color: #35495a;
+    text-align: left;
+    text-indent: 5%;
+    padding: 5%;
+    line-height: 1.1rem;
 }
 
 .aboutme-photo {
-    max-width: 100%;
-    width: 350px;
+    width: 200px;
     height: 200px;
     border-radius: 2rem;
+    float: left; 
 }
 /* bio ends*/
 
@@ -231,9 +227,9 @@ img {
     margin-bottom: -6px;
 }
 
+
 p {
     width: 60%;
-    margin-top: 0 auto;
     text-align: center;
     font-size: small;
     color: #efefef;
@@ -310,8 +306,34 @@ h5 {
 }
 h3 { /* pg 2 topics of interest*/
     color:#35495a;
+    border-bottom: 1px dotted black;
+    padding-bottom: 10px;
    
 }
+.scrumtopic, .accessabiltopic, .typogratopic {
+    border: 1px dotted #35495a;
+    border-radius: .60rem;
+    background-color:#f0efeb;
+}
+.scrumpara, .accessabilpara, .typograpara {
+    font-size: 14px;
+    color: #35495a;
+    
+}
+.topic-gallery {
+        display: flex;
+        justify-content: space-between;
+        height: auto;
+        flex-direction: column;
+        flex-wrap: wrap;
+        font-size: 1rem;
+        flex-basis: 30%;
+    }
+    .topiclayout {
+        display: flex;
+        justify-content: center; 
+    }
+
 
 
  
