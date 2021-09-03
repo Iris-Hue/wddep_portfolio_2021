@@ -14,8 +14,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     background-image: radial-gradient(circle, rgba(255, 76, 41, 0.9) 17%, #ff4c29 90%);
-    min-width: 100%;
-    min-height: 100vh;
+    
 }
 .outermargin-page-header, 
 .outermargin-contact-info, 
@@ -30,16 +29,15 @@ body {
     margin: 0 auto;
 }
 
-  .main-nav ul {
+  .main-nav {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: right;
+  justify-content: flex-end;
+  align-items: flex-end;
   text-transform: uppercase; 
   }
-  ul {
-      display: flex;
-  }
+  
 
    li {
     font-size: 15px;
@@ -53,7 +51,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
-    flex-grow: 1;
+    align-self: flex-start;
     color: #EFEFE6;
     font-size: 20px;
     margin-left: 8rem;
