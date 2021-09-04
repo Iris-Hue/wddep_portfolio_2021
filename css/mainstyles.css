@@ -28,6 +28,10 @@ body {
     width: 85%;
     margin: 0 auto;
 }
+.headernav {
+    display: flex;
+    justify-content: space-between;
+}
 
   .main-nav {
   display: flex;
@@ -81,13 +85,12 @@ span {
 h2 {
     font-size: 42px;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
     margin-left: 20px;
     font-family: 'Assistant', sans-serif;
     padding: 10px 5px 5px 15px;
-    display: block;
     color: #efefef;
-    width: 100%;
+    width: auto;
 }
 /* /navbar*/
 
@@ -107,10 +110,11 @@ h2 {
 }
 .intro .outermargin-intro {
     min-height: 40vh;
-    background-image: url('../images/growing.jpeg');
+    background-image: url('../images/growthup.jpeg');
     background-repeat: no-repeat;
-    background-position: right center;
+    background-position: right;
     background-size: auto 100%;
+    border-radius: 0.40rem;
 }
 .welcome-parag {
     color:#35495a;
