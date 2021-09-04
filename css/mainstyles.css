@@ -10,12 +10,7 @@ body {
     color: #efefe6;
     font-family: 'Assistant', sans-serif;
 } 
-.page-header {
-    display: flex;
-    flex-wrap: wrap;
-    background-image: radial-gradient(circle, rgba(255, 76, 41, 0.9) 17%, #ff4c29 90%);
-    
-}
+
 .outermargin-page-header, 
 .outermargin-contact-info, 
 .outermargin-footer, 
@@ -40,7 +35,7 @@ body {
   justify-content: space-between;
   align-items: flex-end;
   text-transform: uppercase; 
-  }
+  } 
   
 
    li {
@@ -49,7 +44,7 @@ body {
     text-align: center;
     list-style-type: none;
  
-  }
+  } 
 
 .header-name {
     display: flex;
