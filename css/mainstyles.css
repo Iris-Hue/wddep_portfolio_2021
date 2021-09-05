@@ -6,7 +6,6 @@
 }
 
 body {
-    font-size: 25px;
     color: #efefe6;
     font-family: 'Assistant', sans-serif;
 } 
@@ -18,12 +17,16 @@ body {
 .outermargin-secpagefooter {
     background-color: #ff4c29;
 }
+.outermargin-page-header,
+.outermargin-footer {
+    padding-bottom: 35px;
+}
 
 .child {
     width: 85%;
     margin: 0 auto;
 }
-.headernav {
+.headernav { /* to make it flex*/
     display: flex;
     justify-content: space-between;
 }
@@ -39,7 +42,7 @@ body {
   
 
    li {
-    font-size: 15px;
+    font-size: 16px;
     padding: 12px;
     text-align: center;
     list-style-type: none;
@@ -52,7 +55,7 @@ body {
     justify-content: left;
     align-self: flex-start;
     color: #EFEFE6;
-    font-size: 20px;
+    font-size: 16px;
     margin-left: 8rem;
     margin-bottom: auto;
 }
@@ -66,13 +69,22 @@ body {
     margin-left: 8rem;
 }
 .mission-statement {
-    font-size: 20px;
+    font-size: 16px;
     color: #EFEFE6;
     width: 50%;
     margin-left: 8rem;
 }
+.scrollmore {
+    margin-left: 8rem;
+    padding-top: 5%;
+    
+}
+.scrollmore:hover {
+    color:#082032;
+   
+}
 span {
-    font-size: 13px;
+    font-size: 16px;
     margin-left: 2rem;
     margin-top: 10px;
 }
@@ -129,9 +141,11 @@ h2 {
     height: auto;
     flex-direction: column;
     flex-wrap: wrap;
-    font-size: 1rem;
     flex-basis: 30%;
     align-items: center;
+}
+.card-gallery p {
+    width: 60%;
 }
 .gallerylayout {
     display: flex;
@@ -150,7 +164,6 @@ h2 {
 }
 .card-parag {
     display: flex;
-    font-size: 1rem;
     text-align: left;
     width: 70%;
     flex-grow: 2;
@@ -164,18 +177,17 @@ img {
     height: auto;
 }
 .readmore-button {
-    background-color: #2c394b;
+  
     color: #ff4c29;
-    font-size: 14px;
-    margin-left: 8rem;
+    font-size: 16px;
+    margin-left: 5rem;
     padding: 10px;
     margin-top:32px;
     border-radius: .25rem;
 }
 .readmore-button:hover {
-    cursor: context-menu;
-    color: #bc4639;
-    background-color: lightgray;
+    color: #ff7f51;
+    background-color: #35495a;
 }
 .viewproject {
     margin-left: 0;
@@ -212,25 +224,25 @@ img {
 
 /* contact starts*/
 .contact-info {
-    background-image: radial-gradient(circle, rgba(255, 76, 41, 0.9) 17%, #ff4c29 90%);
-        display: flex;
-        flex-wrap: nowrap;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        align-content: start;
+    width: 100%;
+   
+}
+.contactcontainer { /* to make it flex*/
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+   
+}
+.contactcontainer p, a {
+    align-self: center;
+    
 }
 .contactwavedivider {
     margin-bottom: -6px;
 }
 
 
-p {
-    width: 60%;
-    text-align: center;
-    font-size: small;
-    color: #efefef;
-  }
 
 .email-button {
     color: #ff4c29;
@@ -244,41 +256,39 @@ p {
    
 }
 .email-button:hover {
-    background-color: #35495a;
+    background-color: #ff7f51;
 }
-a {
+
+a { /*contact me button*/
     color: #efefef;
     font-weight: 700;
     list-style-type: none;
     text-decoration: none;
     padding: 10px;
     border: 2px solid;
-    border-radius: .30rem; 
+    border-radius: .30rem;
+    text-align: center;
+   
   
 }
-a:hover {
+a:hover { /*contact me button*/
+    color:#ff4c29;
     background-color: #35495a;
+    text-align: center;
 }
 /* /contact ends*/
 
 
 /* footer starts*/
 .footer {
-    display: flex;
-    padding-top: 10px;
-    font-size: 14px;
+    font-size: 16px;
     color:#082032;
-    background-image: radial-gradient(circle, rgba(255, 76, 41, 0.9) 17%, #ff4c29 90%);
-    justify-content: space-between; 
-    flex-wrap: wrap; 
+    
 }
 .footer-heading {
-    display: flex;
     text-align: center;
     width: 100%;
-    justify-content: space-between; 
 }
-
 
 h4 {
     display: block;
@@ -289,8 +299,9 @@ h4 {
 }
 
 h5 {
-    font-size: 14px;
+    font-size: 16px;
     width: 100%;
+    margin: 0 auto;
 }
 /* /footer ends*/
 
@@ -313,7 +324,7 @@ h3 { /* pg 2 topics of interest*/
     background-color:#f0efeb;
 }
 .scrumpara, .accessabilpara, .typograpara {
-    font-size: 14px;
+    font-size: 16px;
     color: #35495a;
     
 }
@@ -323,7 +334,6 @@ h3 { /* pg 2 topics of interest*/
         height: auto;
         flex-direction: column;
         flex-wrap: wrap;
-        font-size: 1rem;
         flex-basis: 30%;
     }
     .topiclayout {
