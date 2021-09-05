@@ -182,16 +182,16 @@ img {
     font-size: 16px;
     margin-left: 5rem;
     padding: 10px;
-    margin-top:32px;
+    margin-top: 32px;
     border-radius: .25rem;
 }
 .readmore-button:hover {
-    color: #ff7f51;
-    background-color: #35495a;
+    color: #efefef;
+    background-color: #ff4c29;
 }
-.viewproject {
+.viewproject { /* link to view project*/
     margin-left: 0;
-    margin-top: 0;
+
 }
 /* gallery of works ends*/
 
@@ -244,19 +244,19 @@ img {
 
 
 
-.email-button {
+.email-button { /* about me link/ read aboutproject link/ gitaccount*/
     color: #ff4c29;
     font-size: 16px;
     margin-top: 30px;
-    padding: 1%;
-    border-radius: 0.25rem;
+    padding: 5px;
+    
     width: 20%;
-    list-style-type: none;
-
-   
+    list-style-type: none;   
 }
-.email-button:hover {
-    background-color: #ff7f51;
+.email-button:hover {  /* about me link/ project link/ gitaccount*/
+    color: #efefef;
+    background-color: #ff4c29;
+   
 }
 
 a { /*contact me button*/
