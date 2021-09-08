@@ -206,6 +206,7 @@ img {
 }
 .bio-parag {
     display: flex;
+    width: 63%;
     color: #35495a;
     text-align: left;
     text-indent: 5%;
@@ -218,6 +219,10 @@ img {
     height: 200px;
     border-radius: 2rem;
     float: left; 
+}
+.mobile-photo {
+    width: 300px;
+    
 }
 /* bio ends*/
 
@@ -297,6 +302,11 @@ h4 {
     color:#35495a;
     margin-bottom: 1rem;
 }
+.mobile-challenges-title,
+.mobile-conclusion-title {
+    text-align: left;
+    margin-top: 30px;
+}
 
 h5 {
     font-size: 16px;
@@ -339,6 +349,22 @@ h3 { /* pg 2 topics of interest*/
     .topiclayout {
         display: flex;
         justify-content: center; 
+    }
+    /* mobile subpages section*/
+    .mobile-challenges, 
+    .mobile-conclusion {
+        color: #35495a;
+        width: 56%;
+        text-align: left;
+        margin-bottom: 20px;
+        text-indent: 5%;
+        line-height: 1.1rem;
+       
+    }
+    .mobile-parag-bg { /* grey bkgr on paragraph*/
+        background-color: #f0f0f0;
+        border-radius: .35rem;
+        margin-left: 5px;
     }
 
 
