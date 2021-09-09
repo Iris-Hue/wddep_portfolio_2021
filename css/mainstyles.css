@@ -333,7 +333,7 @@ h3 { /* pg 2 topics of interest*/
 .scrumtopic, .accessabiltopic, .typogratopic {
     border: 1px dotted #35495a;
     border-radius: .60rem;
-    background-color:#f0efeb;
+    background-color: #f0f0f0;
 }
 .scrumpara, .accessabilpara, .typograpara {
     font-size: 16px;
