@@ -71,7 +71,7 @@ body {
 .mission-statement {
     font-size: 16px;
     color: #EFEFE6;
-    width: 50%;
+    width: 45%;
     margin-left: 8rem;
 }
 .scrollmore {
@@ -221,7 +221,9 @@ img {
     float: left; 
 }
 .mobile-photo {
-    width: 300px;
+    width: 325px;
+    margin-left: 20px;
+   
     
 }
 /* bio ends*/
@@ -354,7 +356,7 @@ h3 { /* pg 2 topics of interest*/
     .mobile-challenges, 
     .mobile-conclusion {
         color: #35495a;
-        width: 56%;
+        width: 50%;
         text-align: left;
         margin-bottom: 20px;
         text-indent: 5%;
@@ -364,7 +366,8 @@ h3 { /* pg 2 topics of interest*/
     .mobile-parag-bg { /* grey bkgr on paragraph*/
         background-color: #f0f0f0;
         border-radius: .35rem;
-        margin-left: 5px;
+        margin-left: 40%;
+        width: 50%;
     }
 
 
