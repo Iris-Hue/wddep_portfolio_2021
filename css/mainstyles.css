@@ -27,9 +27,12 @@ body {
     width: 85%;
     margin: 0 auto;
 }
+  
 .headernav { /* to make it flex*/
     display: flex;
     justify-content: space-between;
+    
+    
 }
 
   .main-nav {
@@ -39,15 +42,15 @@ body {
   justify-content: space-between;
   align-items: flex-end;
   text-transform: uppercase;
+ 
   }
-
-
+  
    li {
     font-size: 16px;
     padding: 12px;
     text-align: center;
     list-style-type: none;
-
+    
   }
 
 .header-name {
@@ -59,6 +62,7 @@ body {
     font-size: 16px;
     margin-left: 8rem;
     margin-bottom: auto;
+    
 }
 .developer-title {
     font-size: 70px;
@@ -100,6 +104,7 @@ h2 {
     padding: 10px 5px 5px 15px;
     color: #efefef;
     width: auto;
+    
 }
 /* /navbar*/
 
